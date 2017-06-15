@@ -51,6 +51,7 @@
 	background-color: #ffffff;
 }
 
+
 .paraabout {
 	color: black;
 }
@@ -97,9 +98,57 @@ a {
 	border-right: thick solid #F0F8FF;
 	padding: 0px 15px 0px 0px;
 }
-.row1 {
+
+
+.Portfolio {
+	position: relative;
+	color: black;
+	width: 680px;
+	height: 1200px;
+	padding: 10px 10px 10px 10px;
+	left: 50px;
+ 	margin: 0;
+ 	margin-bottom: 20px;
+ 	font-size: 20px;
+ 	text-align: center;
+	background-color: #ffffff;
+	z-index: -1;
+}
+
+#portfolio_header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: left;
+	font-size: 40px;
+	padding: 20px 20px 20px 20px;
+
+}
+
+.row {
 	float: left;
-	width: 50%;
+	width: 40%;
+	margin: 10px 30px 10px 30px;
+}
+
+.projectimage {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	left: -30px;
+	margin: 10px 10px 10px 25px;
+
+}
+
+.projectname {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	position: relative;
+	width: 210px;
+	padding: 20px 20px 20px 20px;
+	background-color: #4aaaa5;
+	left:-5px;
+	top: 200px;
+	z-index: 1;
+
 }
 
 .row2 {
@@ -110,4 +159,28 @@ a {
 .row3 {
 	float: left;
 	width: 50%
+}
+
+.footerrelative {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    background-color: grey;
+    width: 100%;
+}
+
+.footerabsolute {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    background-color: grey;
+    width: 100%;
+}
+
+#footertext {
+    color: white;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
 }
