@@ -115,6 +115,40 @@ a {
 	z-index: -1;
 }
 
+.AboutMe {
+	position: relative;
+	color: black;
+	width: 680px;
+	padding: 10px 10px 10px 10px;
+	left: 50px;
+ 	margin: 0;
+ 	margin-bottom: 20px;
+ 	font-size: 20px;
+ 	text-align: center;
+	background-color: #ffffff;
+	z-index: -1;
+
+}
+
+#contactheader {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: left;
+	font-size: 40px;
+	padding: 20px 20px 20px 20px;
+
+}
+
+.contact_me {
+	text-align: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px 20px 20px 20px;
+}
+
+.inputstuff{
+	width: 500px;
+	padding: 20px 20px 20px 20px;
+}
+
 #portfolio_header {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: left;
